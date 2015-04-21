@@ -239,6 +239,7 @@ testSpads.simpleDescription()
 
 // --------------------协议和扩展----------------------- //
 
+// 协议 protocol
 protocol ExampleProtocol {
     var simpleDescription: String{ get }
     mutating func adjust()
@@ -266,6 +267,37 @@ struct SimpleStructure:ExampleProtocol {
 var simpleStructure = SimpleStructure()
 simpleStructure.adjust()
 simpleStructure.simpleDescription
+
+// 注意mutating 用来修饰会修改结构体的方法 类中未标注是因为类中的方法经常会修改类
+
+// 扩展 extension
+extension Int:ExampleProtocol {
+    
+    var simpleDescription: String {
+        return "The number \(self)"
+    }
+    
+    mutating func adjust() {
+        self += 42
+    }
+}
+7.simpleDescription
+
+// --------------------泛型----------------------- //
+func repeat<ItemType>(item: ItemType, times: Int) -> [ItemType] {
+    var result = [ItemType]()
+    for i in 0 ..< times {
+        result.append(item)
+    }
+    return result
+}
+repeat("knock", 4)
+// 泛型到底是何东东 难道是取代id类型？有点像
+// 可以创建泛型类，结构体，枚举
+
+
+
+
 
 
 
