@@ -13,6 +13,7 @@
 		C04ED9F51AE69223008407BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04ED9F41AE69223008407BA /* Images.xcassets */; };
 		C04ED9F81AE69223008407BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04ED9F61AE69223008407BA /* LaunchScreen.xib */; };
 		C04EDA041AE69223008407BA /* MySwift02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04EDA031AE69223008407BA /* MySwift02Tests.swift */; };
+		C0CC9C821AEB8DD000946CA2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC9C811AEB8DD000946CA2 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2500A9B6E1A774409F888EFC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04ED9E81AE69223008407BA /* MySwift02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwift02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04ED9EC1AE69223008407BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04ED9ED1AE69223008407BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,16 +38,10 @@
 		C04ED9FD1AE69223008407BA /* MySwift02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwift02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04EDA021AE69223008407BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04EDA031AE69223008407BA /* MySwift02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwift02Tests.swift; sourceTree = "<group>"; };
+		C0CC9C811AEB8DD000946CA2 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C04ED9E51AE69223008407BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C04ED9FA1AE69223008407BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +58,7 @@
 				C04ED9EA1AE69223008407BA /* MySwift02 */,
 				C04EDA001AE69223008407BA /* MySwift02Tests */,
 				C04ED9E91AE69223008407BA /* Products */,
+				FA6168AEC5C26D376761B9C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +76,7 @@
 			children = (
 				C04ED9ED1AE69223008407BA /* AppDelegate.swift */,
 				C04ED9EF1AE69223008407BA /* ViewController.swift */,
+				C0CC9C811AEB8DD000946CA2 /* Alamofire.swift */,
 				C04ED9F11AE69223008407BA /* Main.storyboard */,
 				C04ED9F41AE69223008407BA /* Images.xcassets */,
 				C04ED9F61AE69223008407BA /* LaunchScreen.xib */,
@@ -112,6 +110,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA6168AEC5C26D376761B9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2500A9B6E1A774409F888EFC /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,7 +126,6 @@
 			buildConfigurationList = C04EDA071AE69223008407BA /* Build configuration list for PBXNativeTarget "MySwift02" */;
 			buildPhases = (
 				C04ED9E41AE69223008407BA /* Sources */,
-				C04ED9E51AE69223008407BA /* Frameworks */,
 				C04ED9E61AE69223008407BA /* Resources */,
 			);
 			buildRules = (
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CC9C821AEB8DD000946CA2 /* Alamofire.swift in Sources */,
 				C04ED9F01AE69223008407BA /* ViewController.swift in Sources */,
 				C04ED9EE1AE69223008407BA /* AppDelegate.swift in Sources */,
 			);
