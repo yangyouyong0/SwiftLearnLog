@@ -1,0 +1,15 @@
+platform :ios, '7.0'
+# 音频解码
+pod 'DOUAudioStreamer'
+
+# 网络请求
+pod 'Alamofire'
+
+# 自动布局(后续改用storyboard)
+pod 'SnapKit'
+
+
+# JSON数据解析
+# 手写
+
+use_frameworks!

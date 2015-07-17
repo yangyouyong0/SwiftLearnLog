@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DBE3FABACCE29E6D25A54F /* DOUAudioEventLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEF3DFFC2527F8617FEF661 /* DOUAudioEventLoop.h */; };
+		04AAF0ECB87843486EF45574 /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0CD1E82C4E6FD299BAC9B /* NSData+DOUMappedFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		070BAA7853B8B94FD105CFB6 /* DOUAudioFileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6297577E7E191689E2F4E9 /* DOUAudioFileProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0958BAC2E9DAD4CDE2E23F32 /* DOUAudioFilePreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 551B1FA7248E5CE34E39743A /* DOUAudioFilePreprocessor.h */; };
+		1070F7E93775FEE9DF9F0ECB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8044B2CB56010655190856BE /* OpenGLES.framework */; };
+		113C8CBB0263CF1F9E6A215E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F5096B3096FB00B52C565 /* CoreAudio.framework */; };
+		152BF9CFCA39DFDA791E446A /* DOUEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C4CFD8F2F4D627FCC1A96 /* DOUEAGLView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19DF6E838BAE0C6A6188D02D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECEA0A644D01B2D7F107278 /* QuartzCore.framework */; };
+		1A9416ACE21E3C4CBBB3537B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD9BA637FE592C2448643DA /* AudioToolbox.framework */; };
+		1B0430B935022B6406D45298 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E81F2054763F0395AF36375 /* AVFoundation.framework */; };
+		2090F1EA74E04CC33C2001C5 /* DOUAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA97F0CC6EF9E49C632185 /* DOUAudioDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2ACE2C88784612285185DA19 /* DOUAudioFilePreprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = D07D87302300DB9D91D3CBCC /* DOUAudioFilePreprocessor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B9C0DEEC419B5C0C7C2A97C /* DOUAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ADAAD1AF2DCAC101B7EB02 /* DOUAudioLPCM.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D2923B549FE91FAAF80E4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E902F266F2604E6004095456 /* Foundation.framework */; };
+		34AE8EEBC343667113B16C83 /* DOUAudioBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A335303AF16727B9A8187D /* DOUAudioBase.h */; };
+		34E170FF8A0EC6BE6ECBBE45 /* DOUAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4255AAB0E171FF1DA13C2 /* DOUAudioAnalyzer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F9806623A5652A7C24E9238 /* DOUAudioStreamer+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6641425E327D41F226A2A7 /* DOUAudioStreamer+Options.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FAAA12F6511D11E61430526 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D30E8B0558E0D0B754929C /* MobileCoreServices.framework */; };
+		40C396844C003371F4354D9E /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1D3165F2D9A334A3D2982 /* DOUSimpleHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		42167F218389173871F5FA55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E902F266F2604E6004095456 /* Foundation.framework */; };
+		4AB1B3DA6C87C5916C75E3F9 /* DOUAudioSpatialAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E349BCD15E68751FFBB66CE /* DOUAudioSpatialAnalyzer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4D3DBE372E002B7455074712 /* DOUAudioRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 315B0D01689EA8A01CD1E717 /* DOUAudioRenderer.h */; };
+		4E8C7E6662E01189E5A268F5 /* DOUAudioPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9283BACA5ACFB449D85AA7D2 /* DOUAudioPlaybackItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5580DF6C3EF80B15D8F2130F /* DOUAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 481C2EE25D7792B066EFA8EC /* DOUAudioFile.h */; };
+		571AD43D6C080C77CFF9FE98 /* NSData+DOUMappedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 85421D29982CC25A4C236381 /* NSData+DOUMappedFile.h */; };
+		58FDA2D6339C97D6D812AAA6 /* DOUAudioFrequencyAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4704AB9A15E1C26A59B85 /* DOUAudioFrequencyAnalyzer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6A3B9406B2371478DBCD5995 /* DOUAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C6F8DCCCE1F5F497DA1184 /* DOUAudioStreamer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B427E84C90F176FF27B178D /* DOUEAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDAEE4C9D57FDD1D174822B /* DOUEAGLView.h */; };
+		6D0054BDEDBC7B78B1171D9B /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4466BE2D63A183DA284AFF4 /* DOUMPMediaLibraryAssetLoader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E0EB658854853558A0B25F3 /* DOUAudioPlaybackItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87B646296EF029AEB4BC68 /* DOUAudioPlaybackItem.h */; };
+		76084D30808EDB0CD6A132E2 /* DOUAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0903563B32B8CD67F708048 /* DOUAudioRenderer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7AD74D80F497CC59598D4C84 /* DOUAudioVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3389070CB61D2ECCBC2672D8 /* DOUAudioVisualizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81E5689A06498331C0093FB7 /* DOUAudioSpatialAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9FAADF9AC51AAB2B46106D /* DOUAudioSpatialAnalyzer.h */; };
+		82CD1B6191B2C40C067D7385 /* DOUMPMediaLibraryAssetLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C286B0EEF5506B561DDD4D9 /* DOUMPMediaLibraryAssetLoader.h */; };
+		9564A70657969529040F40C7 /* DOUAudioAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E7AFD7B09CAC00BBF5072F /* DOUAudioAnalyzer.h */; };
+		9EC044EED030E3BFBFC406B3 /* DOUAudioStreamer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB7AB0C08A36333A0001593 /* DOUAudioStreamer_Private.h */; };
+		A0F0E9EEE1FD1BB64722F463 /* DOUAudioVisualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0185BD01960EB14CBF38F9 /* DOUAudioVisualizer.h */; };
+		AA9E4C2B0269B990B22D5073 /* DOUAudioAnalyzer+Default.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB8690885D262DE383BC3FA /* DOUAudioAnalyzer+Default.h */; };
+		AD5FB8AA4C40C0DBEC3833A2 /* DOUAudioLPCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6C025DECEBDE1FDB0DDEF3 /* DOUAudioLPCM.h */; };
+		B3828F0EB99B9719FA08737C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9216BABDB5AED68AF562805 /* Accelerate.framework */; };
+		B40526363A27BA8B22646973 /* DOUAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = E32F5D7432263ECC4D905CEA /* DOUAudioEventLoop.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5FE320AA70FFAC53652ED28 /* DOUSimpleHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D202F0CCCDB966DAAAECFAF /* DOUSimpleHTTPRequest.h */; };
+		BA24A050F507309E1D62A61F /* DOUAudioAnalyzer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0DD2094590515F7D43C72E /* DOUAudioAnalyzer_Private.h */; };
+		CD01F2CB134A370CCBA4C795 /* DOUAudioFrequencyAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C841A8A7E4B2165AA9D72B /* DOUAudioFrequencyAnalyzer.h */; };
+		CE73C366E3B084181F97377B /* DOUAudioStreamer+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F1695BDB430BC512E20BE7 /* DOUAudioStreamer+Options.h */; };
+		D5308B27AAFCBD6DA0A4188C /* DOUAudioAnalyzer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 05177ED5D01E51FB8AD08DB0 /* DOUAudioAnalyzer+Default.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D8A1598C953B0EFCFD13BD7D /* Pods-DOUAudioStreamer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3C77DA7A1B0112A663844 /* Pods-DOUAudioStreamer-dummy.m */; };
+		E01408A991009222E867694B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CD09D8CCE07694FA680790 /* CFNetwork.framework */; };
+		E1C8E770D7B80220BAF8F7A9 /* DOUAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDDCB09EAC0953B7BC1B44E /* DOUAudioDecoder.h */; };
+		E79AACEFB12D93C6E466B3B6 /* DOUAudioFileProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF3D0A6E8127FBA742207B2 /* DOUAudioFileProvider.h */; };
+		F2AE748ED4B036641EB7C896 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 396AD2B55707A98862E65B30 /* Pods-dummy.m */; };
+		F7A8C6412A1B53A90053DB7E /* DOUAudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A6E70D0E94184B0F107B42 /* DOUAudioStreamer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8C2F8CC54A5FFF208B44F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CD2A4043AAFBCCE2AD77FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FE5320838B1342DAD2D7CE;
+			remoteInfo = "Pods-DOUAudioStreamer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F25913CBD1FBCFC239EA72 /* Pods-DOUAudioStreamer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOUAudioStreamer-Private.xcconfig"; sourceTree = "<group>"; };
+		05177ED5D01E51FB8AD08DB0 /* DOUAudioAnalyzer+Default.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DOUAudioAnalyzer+Default.m"; path = "src/DOUAudioAnalyzer+Default.m"; sourceTree = "<group>"; };
+		0A9F5096B3096FB00B52C565 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		0AF3D0A6E8127FBA742207B2 /* DOUAudioFileProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioFileProvider.h; path = src/DOUAudioFileProvider.h; sourceTree = "<group>"; };
+		14CA97F0CC6EF9E49C632185 /* DOUAudioDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioDecoder.m; path = src/DOUAudioDecoder.m; sourceTree = "<group>"; };
+		16B4704AB9A15E1C26A59B85 /* DOUAudioFrequencyAnalyzer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioFrequencyAnalyzer.m; path = src/DOUAudioFrequencyAnalyzer.m; sourceTree = "<group>"; };
+		1CD9BA637FE592C2448643DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		1CEF3DFFC2527F8617FEF661 /* DOUAudioEventLoop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioEventLoop.h; path = src/DOUAudioEventLoop.h; sourceTree = "<group>"; };
+		3141C169F1E3B69A945187C0 /* libPods-DOUAudioStreamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DOUAudioStreamer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315B0D01689EA8A01CD1E717 /* DOUAudioRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioRenderer.h; path = src/DOUAudioRenderer.h; sourceTree = "<group>"; };
+		3389070CB61D2ECCBC2672D8 /* DOUAudioVisualizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioVisualizer.m; path = src/DOUAudioVisualizer.m; sourceTree = "<group>"; };
+		396AD2B55707A98862E65B30 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		3EC3C77DA7A1B0112A663844 /* Pods-DOUAudioStreamer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DOUAudioStreamer-dummy.m"; sourceTree = "<group>"; };
+		3EF71370D92B8AB5E83BAC94 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		481C2EE25D7792B066EFA8EC /* DOUAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioFile.h; path = src/DOUAudioFile.h; sourceTree = "<group>"; };
+		4A6C025DECEBDE1FDB0DDEF3 /* DOUAudioLPCM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioLPCM.h; path = src/DOUAudioLPCM.h; sourceTree = "<group>"; };
+		4AE2B2BDC05141F79D852DD9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50E7AFD7B09CAC00BBF5072F /* DOUAudioAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioAnalyzer.h; path = src/DOUAudioAnalyzer.h; sourceTree = "<group>"; };
+		551B1FA7248E5CE34E39743A /* DOUAudioFilePreprocessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioFilePreprocessor.h; path = src/DOUAudioFilePreprocessor.h; sourceTree = "<group>"; };
+		57E0CD1E82C4E6FD299BAC9B /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+DOUMappedFile.m"; path = "src/NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
+		5B87B646296EF029AEB4BC68 /* DOUAudioPlaybackItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioPlaybackItem.h; path = src/DOUAudioPlaybackItem.h; sourceTree = "<group>"; };
+		5C286B0EEF5506B561DDD4D9 /* DOUMPMediaLibraryAssetLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUMPMediaLibraryAssetLoader.h; path = src/DOUMPMediaLibraryAssetLoader.h; sourceTree = "<group>"; };
+		5D202F0CCCDB966DAAAECFAF /* DOUSimpleHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUSimpleHTTPRequest.h; path = src/DOUSimpleHTTPRequest.h; sourceTree = "<group>"; };
+		6A6641425E327D41F226A2A7 /* DOUAudioStreamer+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DOUAudioStreamer+Options.m"; path = "src/DOUAudioStreamer+Options.m"; sourceTree = "<group>"; };
+		6E9FAADF9AC51AAB2B46106D /* DOUAudioSpatialAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioSpatialAnalyzer.h; path = src/DOUAudioSpatialAnalyzer.h; sourceTree = "<group>"; };
+		7082CA926A8F32D5C2F1C4EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		752E92F6E98B4960EB87CE5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		7E349BCD15E68751FFBB66CE /* DOUAudioSpatialAnalyzer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioSpatialAnalyzer.m; path = src/DOUAudioSpatialAnalyzer.m; sourceTree = "<group>"; };
+		7E81F2054763F0395AF36375 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ECEA0A644D01B2D7F107278 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7FDAEE4C9D57FDD1D174822B /* DOUEAGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUEAGLView.h; path = src/DOUEAGLView.h; sourceTree = "<group>"; };
+		8044B2CB56010655190856BE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		81F4255AAB0E171FF1DA13C2 /* DOUAudioAnalyzer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioAnalyzer.m; path = src/DOUAudioAnalyzer.m; sourceTree = "<group>"; };
+		85421D29982CC25A4C236381 /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+DOUMappedFile.h"; path = "src/NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
+		85A6E70D0E94184B0F107B42 /* DOUAudioStreamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioStreamer.h; path = src/DOUAudioStreamer.h; sourceTree = "<group>"; };
+		8655375B48BE7924BB9ACF70 /* Pods-DOUAudioStreamer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DOUAudioStreamer-prefix.pch"; sourceTree = "<group>"; };
+		8BAB830494BEDAE695AC28C1 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9283BACA5ACFB449D85AA7D2 /* DOUAudioPlaybackItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioPlaybackItem.m; path = src/DOUAudioPlaybackItem.m; sourceTree = "<group>"; };
+		93D30E8B0558E0D0B754929C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		9B0DD2094590515F7D43C72E /* DOUAudioAnalyzer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioAnalyzer_Private.h; path = src/DOUAudioAnalyzer_Private.h; sourceTree = "<group>"; };
+		9FB7AB0C08A36333A0001593 /* DOUAudioStreamer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioStreamer_Private.h; path = src/DOUAudioStreamer_Private.h; sourceTree = "<group>"; };
+		A2CDA78D7626108624C3DD10 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E2EB91A48AFE241C396268 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0185BD01960EB14CBF38F9 /* DOUAudioVisualizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioVisualizer.h; path = src/DOUAudioVisualizer.h; sourceTree = "<group>"; };
+		AA6297577E7E191689E2F4E9 /* DOUAudioFileProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioFileProvider.m; path = src/DOUAudioFileProvider.m; sourceTree = "<group>"; };
+		AFDDCB09EAC0953B7BC1B44E /* DOUAudioDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioDecoder.h; path = src/DOUAudioDecoder.h; sourceTree = "<group>"; };
+		B1C841A8A7E4B2165AA9D72B /* DOUAudioFrequencyAnalyzer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioFrequencyAnalyzer.h; path = src/DOUAudioFrequencyAnalyzer.h; sourceTree = "<group>"; };
+		B9216BABDB5AED68AF562805 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		BC1C4CFD8F2F4D627FCC1A96 /* DOUEAGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUEAGLView.m; path = src/DOUEAGLView.m; sourceTree = "<group>"; };
+		C2F1695BDB430BC512E20BE7 /* DOUAudioStreamer+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DOUAudioStreamer+Options.h"; path = "src/DOUAudioStreamer+Options.h"; sourceTree = "<group>"; };
+		D07D87302300DB9D91D3CBCC /* DOUAudioFilePreprocessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioFilePreprocessor.m; path = src/DOUAudioFilePreprocessor.m; sourceTree = "<group>"; };
+		D1CD09D8CCE07694FA680790 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D2A335303AF16727B9A8187D /* DOUAudioBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOUAudioBase.h; path = src/DOUAudioBase.h; sourceTree = "<group>"; };
+		D8ADAAD1AF2DCAC101B7EB02 /* DOUAudioLPCM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioLPCM.m; path = src/DOUAudioLPCM.m; sourceTree = "<group>"; };
+		D9C6F8DCCCE1F5F497DA1184 /* DOUAudioStreamer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioStreamer.m; path = src/DOUAudioStreamer.m; sourceTree = "<group>"; };
+		E1E1D3165F2D9A334A3D2982 /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUSimpleHTTPRequest.m; path = src/DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
+		E32F5D7432263ECC4D905CEA /* DOUAudioEventLoop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioEventLoop.m; path = src/DOUAudioEventLoop.m; sourceTree = "<group>"; };
+		E4466BE2D63A183DA284AFF4 /* DOUMPMediaLibraryAssetLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUMPMediaLibraryAssetLoader.m; path = src/DOUMPMediaLibraryAssetLoader.m; sourceTree = "<group>"; };
+		E902F266F2604E6004095456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEB8690885D262DE383BC3FA /* DOUAudioAnalyzer+Default.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DOUAudioAnalyzer+Default.h"; path = "src/DOUAudioAnalyzer+Default.h"; sourceTree = "<group>"; };
+		F0903563B32B8CD67F708048 /* DOUAudioRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOUAudioRenderer.m; path = src/DOUAudioRenderer.m; sourceTree = "<group>"; };
+		FB174B21BD10F336AD0CAFF6 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		FC3CFE9CABA1E5593A912E75 /* Pods-DOUAudioStreamer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DOUAudioStreamer.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C187DF97E3583B01AA16096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0430B935022B6406D45298 /* AVFoundation.framework in Frameworks */,
+				B3828F0EB99B9719FA08737C /* Accelerate.framework in Frameworks */,
+				1A9416ACE21E3C4CBBB3537B /* AudioToolbox.framework in Frameworks */,
+				E01408A991009222E867694B /* CFNetwork.framework in Frameworks */,
+				113C8CBB0263CF1F9E6A215E /* CoreAudio.framework in Frameworks */,
+				42167F218389173871F5FA55 /* Foundation.framework in Frameworks */,
+				3FAAA12F6511D11E61430526 /* MobileCoreServices.framework in Frameworks */,
+				1070F7E93775FEE9DF9F0ECB /* OpenGLES.framework in Frameworks */,
+				19DF6E838BAE0C6A6188D02D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F920BA2FD96275CDE38B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2923B549FE91FAAF80E4A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BF463143660C144EB63F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69BFAA989865CCF1913A1D2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF104E483A0C2A6203D8383 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CFE9CABA1E5593A912E75 /* Pods-DOUAudioStreamer.xcconfig */,
+				04F25913CBD1FBCFC239EA72 /* Pods-DOUAudioStreamer-Private.xcconfig */,
+				3EC3C77DA7A1B0112A663844 /* Pods-DOUAudioStreamer-dummy.m */,
+				8655375B48BE7924BB9ACF70 /* Pods-DOUAudioStreamer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DOUAudioStreamer";
+			sourceTree = "<group>";
+		};
+		95211C487DEE2F6E68011555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE2B2BDC05141F79D852DD9 /* Pods-acknowledgements.markdown */,
+				8BAB830494BEDAE695AC28C1 /* Pods-acknowledgements.plist */,
+				396AD2B55707A98862E65B30 /* Pods-dummy.m */,
+				FB174B21BD10F336AD0CAFF6 /* Pods-environment.h */,
+				3EF71370D92B8AB5E83BAC94 /* Pods-resources.sh */,
+				752E92F6E98B4960EB87CE5F /* Pods.debug.xcconfig */,
+				7082CA926A8F32D5C2F1C4EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9E31A6113C021385FE092001 /* DOUAudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				50E7AFD7B09CAC00BBF5072F /* DOUAudioAnalyzer.h */,
+				81F4255AAB0E171FF1DA13C2 /* DOUAudioAnalyzer.m */,
+				EEB8690885D262DE383BC3FA /* DOUAudioAnalyzer+Default.h */,
+				05177ED5D01E51FB8AD08DB0 /* DOUAudioAnalyzer+Default.m */,
+				9B0DD2094590515F7D43C72E /* DOUAudioAnalyzer_Private.h */,
+				D2A335303AF16727B9A8187D /* DOUAudioBase.h */,
+				AFDDCB09EAC0953B7BC1B44E /* DOUAudioDecoder.h */,
+				14CA97F0CC6EF9E49C632185 /* DOUAudioDecoder.m */,
+				1CEF3DFFC2527F8617FEF661 /* DOUAudioEventLoop.h */,
+				E32F5D7432263ECC4D905CEA /* DOUAudioEventLoop.m */,
+				481C2EE25D7792B066EFA8EC /* DOUAudioFile.h */,
+				551B1FA7248E5CE34E39743A /* DOUAudioFilePreprocessor.h */,
+				D07D87302300DB9D91D3CBCC /* DOUAudioFilePreprocessor.m */,
+				0AF3D0A6E8127FBA742207B2 /* DOUAudioFileProvider.h */,
+				AA6297577E7E191689E2F4E9 /* DOUAudioFileProvider.m */,
+				B1C841A8A7E4B2165AA9D72B /* DOUAudioFrequencyAnalyzer.h */,
+				16B4704AB9A15E1C26A59B85 /* DOUAudioFrequencyAnalyzer.m */,
+				4A6C025DECEBDE1FDB0DDEF3 /* DOUAudioLPCM.h */,
+				D8ADAAD1AF2DCAC101B7EB02 /* DOUAudioLPCM.m */,
+				5B87B646296EF029AEB4BC68 /* DOUAudioPlaybackItem.h */,
+				9283BACA5ACFB449D85AA7D2 /* DOUAudioPlaybackItem.m */,
+				315B0D01689EA8A01CD1E717 /* DOUAudioRenderer.h */,
+				F0903563B32B8CD67F708048 /* DOUAudioRenderer.m */,
+				6E9FAADF9AC51AAB2B46106D /* DOUAudioSpatialAnalyzer.h */,
+				7E349BCD15E68751FFBB66CE /* DOUAudioSpatialAnalyzer.m */,
+				85A6E70D0E94184B0F107B42 /* DOUAudioStreamer.h */,
+				D9C6F8DCCCE1F5F497DA1184 /* DOUAudioStreamer.m */,
+				C2F1695BDB430BC512E20BE7 /* DOUAudioStreamer+Options.h */,
+				6A6641425E327D41F226A2A7 /* DOUAudioStreamer+Options.m */,
+				9FB7AB0C08A36333A0001593 /* DOUAudioStreamer_Private.h */,
+				AA0185BD01960EB14CBF38F9 /* DOUAudioVisualizer.h */,
+				3389070CB61D2ECCBC2672D8 /* DOUAudioVisualizer.m */,
+				7FDAEE4C9D57FDD1D174822B /* DOUEAGLView.h */,
+				BC1C4CFD8F2F4D627FCC1A96 /* DOUEAGLView.m */,
+				5C286B0EEF5506B561DDD4D9 /* DOUMPMediaLibraryAssetLoader.h */,
+				E4466BE2D63A183DA284AFF4 /* DOUMPMediaLibraryAssetLoader.m */,
+				5D202F0CCCDB966DAAAECFAF /* DOUSimpleHTTPRequest.h */,
+				E1E1D3165F2D9A334A3D2982 /* DOUSimpleHTTPRequest.m */,
+				85421D29982CC25A4C236381 /* NSData+DOUMappedFile.h */,
+				57E0CD1E82C4E6FD299BAC9B /* NSData+DOUMappedFile.m */,
+				6FF104E483A0C2A6203D8383 /* Support Files */,
+			);
+			path = DOUAudioStreamer;
+			sourceTree = "<group>";
+		};
+		ABF7C2108F2642C3F9550930 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95211C487DEE2F6E68011555 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB6E5DE972CF82C2A841E3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E2EB91A48AFE241C396268 /* libPods.a */,
+				3141C169F1E3B69A945187C0 /* libPods-DOUAudioStreamer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE7FBBBC042CD8B30BE29A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E31A6113C021385FE092001 /* DOUAudioStreamer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E825EF94C1B42DE63FE35D7B = {
+			isa = PBXGroup;
+			children = (
+				A2CDA78D7626108624C3DD10 /* Podfile */,
+				60BF463143660C144EB63F76 /* Frameworks */,
+				DFE7FBBBC042CD8B30BE29A0 /* Pods */,
+				BB6E5DE972CF82C2A841E3EA /* Products */,
+				ABF7C2108F2642C3F9550930 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F69BFAA989865CCF1913A1D2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E81F2054763F0395AF36375 /* AVFoundation.framework */,
+				B9216BABDB5AED68AF562805 /* Accelerate.framework */,
+				1CD9BA637FE592C2448643DA /* AudioToolbox.framework */,
+				D1CD09D8CCE07694FA680790 /* CFNetwork.framework */,
+				0A9F5096B3096FB00B52C565 /* CoreAudio.framework */,
+				E902F266F2604E6004095456 /* Foundation.framework */,
+				93D30E8B0558E0D0B754929C /* MobileCoreServices.framework */,
+				8044B2CB56010655190856BE /* OpenGLES.framework */,
+				7ECEA0A644D01B2D7F107278 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78A49D824A2C2FF16539A8F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E4C2B0269B990B22D5073 /* DOUAudioAnalyzer+Default.h in Headers */,
+				9564A70657969529040F40C7 /* DOUAudioAnalyzer.h in Headers */,
+				BA24A050F507309E1D62A61F /* DOUAudioAnalyzer_Private.h in Headers */,
+				34AE8EEBC343667113B16C83 /* DOUAudioBase.h in Headers */,
+				E1C8E770D7B80220BAF8F7A9 /* DOUAudioDecoder.h in Headers */,
+				01DBE3FABACCE29E6D25A54F /* DOUAudioEventLoop.h in Headers */,
+				5580DF6C3EF80B15D8F2130F /* DOUAudioFile.h in Headers */,
+				0958BAC2E9DAD4CDE2E23F32 /* DOUAudioFilePreprocessor.h in Headers */,
+				E79AACEFB12D93C6E466B3B6 /* DOUAudioFileProvider.h in Headers */,
+				CD01F2CB134A370CCBA4C795 /* DOUAudioFrequencyAnalyzer.h in Headers */,
+				AD5FB8AA4C40C0DBEC3833A2 /* DOUAudioLPCM.h in Headers */,
+				6E0EB658854853558A0B25F3 /* DOUAudioPlaybackItem.h in Headers */,
+				4D3DBE372E002B7455074712 /* DOUAudioRenderer.h in Headers */,
+				81E5689A06498331C0093FB7 /* DOUAudioSpatialAnalyzer.h in Headers */,
+				CE73C366E3B084181F97377B /* DOUAudioStreamer+Options.h in Headers */,
+				F7A8C6412A1B53A90053DB7E /* DOUAudioStreamer.h in Headers */,
+				9EC044EED030E3BFBFC406B3 /* DOUAudioStreamer_Private.h in Headers */,
+				A0F0E9EEE1FD1BB64722F463 /* DOUAudioVisualizer.h in Headers */,
+				6B427E84C90F176FF27B178D /* DOUEAGLView.h in Headers */,
+				82CD1B6191B2C40C067D7385 /* DOUMPMediaLibraryAssetLoader.h in Headers */,
+				B5FE320AA70FFAC53652ED28 /* DOUSimpleHTTPRequest.h in Headers */,
+				571AD43D6C080C77CFF9FE98 /* NSData+DOUMappedFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11FE5320838B1342DAD2D7CE /* Pods-DOUAudioStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC8DDB19AE03DFAA61FA338 /* Build configuration list for PBXNativeTarget "Pods-DOUAudioStreamer" */;
+			buildPhases = (
+				6D6791FA07F0D1F13632F9F0 /* Sources */,
+				4C187DF97E3583B01AA16096 /* Frameworks */,
+				78A49D824A2C2FF16539A8F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DOUAudioStreamer";
+			productName = "Pods-DOUAudioStreamer";
+			productReference = 3141C169F1E3B69A945187C0 /* libPods-DOUAudioStreamer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		687CE803BA985F7F5D29FE7A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED612DE9962BDF0737C0CBC /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				07890289193C3BD74C3461BE /* Sources */,
+				62F920BA2FD96275CDE38B4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD97A1EBE0ADF5499ED7D85 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A9E2EB91A48AFE241C396268 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CD2A4043AAFBCCE2AD77FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 42176F4C6DB1B7BFBA103018 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E825EF94C1B42DE63FE35D7B;
+			productRefGroup = BB6E5DE972CF82C2A841E3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687CE803BA985F7F5D29FE7A /* Pods */,
+				11FE5320838B1342DAD2D7CE /* Pods-DOUAudioStreamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07890289193C3BD74C3461BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE748ED4B036641EB7C896 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6791FA07F0D1F13632F9F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308B27AAFCBD6DA0A4188C /* DOUAudioAnalyzer+Default.m in Sources */,
+				34E170FF8A0EC6BE6ECBBE45 /* DOUAudioAnalyzer.m in Sources */,
+				2090F1EA74E04CC33C2001C5 /* DOUAudioDecoder.m in Sources */,
+				B40526363A27BA8B22646973 /* DOUAudioEventLoop.m in Sources */,
+				2ACE2C88784612285185DA19 /* DOUAudioFilePreprocessor.m in Sources */,
+				070BAA7853B8B94FD105CFB6 /* DOUAudioFileProvider.m in Sources */,
+				58FDA2D6339C97D6D812AAA6 /* DOUAudioFrequencyAnalyzer.m in Sources */,
+				2B9C0DEEC419B5C0C7C2A97C /* DOUAudioLPCM.m in Sources */,
+				4E8C7E6662E01189E5A268F5 /* DOUAudioPlaybackItem.m in Sources */,
+				76084D30808EDB0CD6A132E2 /* DOUAudioRenderer.m in Sources */,
+				4AB1B3DA6C87C5916C75E3F9 /* DOUAudioSpatialAnalyzer.m in Sources */,
+				3F9806623A5652A7C24E9238 /* DOUAudioStreamer+Options.m in Sources */,
+				6A3B9406B2371478DBCD5995 /* DOUAudioStreamer.m in Sources */,
+				7AD74D80F497CC59598D4C84 /* DOUAudioVisualizer.m in Sources */,
+				152BF9CFCA39DFDA791E446A /* DOUEAGLView.m in Sources */,
+				6D0054BDEDBC7B78B1171D9B /* DOUMPMediaLibraryAssetLoader.m in Sources */,
+				40C396844C003371F4354D9E /* DOUSimpleHTTPRequest.m in Sources */,
+				04AAF0ECB87843486EF45574 /* NSData+DOUMappedFile.m in Sources */,
+				D8A1598C953B0EFCFD13BD7D /* Pods-DOUAudioStreamer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD97A1EBE0ADF5499ED7D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DOUAudioStreamer";
+			target = 11FE5320838B1342DAD2D7CE /* Pods-DOUAudioStreamer */;
+			targetProxy = CB8C2F8CC54A5FFF208B44F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0598B5EB93BA00D5C31ADECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F63D947FD998864CE165822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752E92F6E98B4960EB87CE5F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BEE563105B3E985D002EF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		878F09BF10E8B8ED5F176EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F25913CBD1FBCFC239EA72 /* Pods-DOUAudioStreamer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DOUAudioStreamer/Pods-DOUAudioStreamer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAB84C587F6905DAC7BBEE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F25913CBD1FBCFC239EA72 /* Pods-DOUAudioStreamer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DOUAudioStreamer/Pods-DOUAudioStreamer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1FE02F524E619DE44847D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7082CA926A8F32D5C2F1C4EF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC8DDB19AE03DFAA61FA338 /* Build configuration list for PBXNativeTarget "Pods-DOUAudioStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878F09BF10E8B8ED5F176EE1 /* Debug */,
+				AAB84C587F6905DAC7BBEE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42176F4C6DB1B7BFBA103018 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEE563105B3E985D002EF5C /* Debug */,
+				0598B5EB93BA00D5C31ADECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED612DE9962BDF0737C0CBC /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F63D947FD998864CE165822 /* Debug */,
+				E1FE02F524E619DE44847D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97CD2A4043AAFBCCE2AD77FB /* Project object */;
+}
